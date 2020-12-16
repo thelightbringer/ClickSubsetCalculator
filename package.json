@@ -1,0 +1,17 @@
+{
+  "name": "click-subset-calculator",
+  "version": "1.0.0",
+  "description": "Given an array of clicks, it returns the subset by filtering the data based on set rules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "solution": "node index.js",
+    "docs": "jsdoc index.js --destination ./docs"
+  },
+  "author": "Abhijit Misra",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.0.0",
+    "jsdoc": "^3.6.6"
+  }
+}
